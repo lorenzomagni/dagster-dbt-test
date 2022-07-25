@@ -1,0 +1,9 @@
+*.pyc
+*.err
+*.out
+*.db
+*.complete
+dbt_python_assets/dbt_python_assets/__pycache__
+dbt_python_assets/*/storage
+dbt_python_assets/dbt_python_assets.egg-info/*
+dbt_python_assets/dbt_python_assets.egg-info
