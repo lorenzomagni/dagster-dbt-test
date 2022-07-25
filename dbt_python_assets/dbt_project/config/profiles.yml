@@ -1,0 +1,14 @@
+dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: oracle
+      host: 10.0.0.1
+      user: PAGE3
+      pass: PAGE3
+      port: 1521
+      dbname: oracle_page3
+      schema: PAGE3
+      threads: 1
+      protocol: tcp
+      service: PAGE11G.icteam.local
